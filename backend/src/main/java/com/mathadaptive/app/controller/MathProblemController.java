@@ -17,9 +17,6 @@ import java.util.Map;
 public class MathProblemController {
     
     @Autowired
-    private MathProblemService mathProblemService;
-    
-    @Autowired
     private UserProgressService userProgressService;
     
     @GetMapping("/problem")
